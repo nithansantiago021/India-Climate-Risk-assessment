@@ -44,6 +44,8 @@ pip install xarray rioxarray geopandas matplotlib netcdf4
 
 ### 2. Data
 
+#### CMIP6 Climate Data
+
 Download the following CMIP6 `tas` (monthly, `Amon`) files for **MRI-ESM2-0**, variant `r1i1p1f1`, grid `gn`, from an [ESGF](https://esgf-node.llnl.gov/search/cmip6/) node, and place them in `data/`:
 
 | Experiment | File pattern |
@@ -51,7 +53,13 @@ Download the following CMIP6 `tas` (monthly, `Amon`) files for **MRI-ESM2-0**, v
 | Historical | `tas_Amon_MRI-ESM2-0_historical_r1i1p1f1_gn_185001-201412.nc` |
 | SSP2-4.5 | `tas_Amon_MRI-ESM2-0_ssp245_r1i1p1f1_gn_201501-210012.nc` |
 
-District boundaries are pulled directly at runtime from a public GeoJSON source, so no manual download is needed for those.
+The NetCDF (`.nc`) climate data files are not included in this repository due to their large file size.
+
+#### District Boundaries
+
+The India district boundary GeoJSON used in this project is sourced from
+[HariKumarValluru/India-Map-with-States-and-Districts-GeoJson](https://github.com/HariKumarValluru/India-Map-with-States-and-Districts-GeoJson).
+
 
 ### 3. Run
 
