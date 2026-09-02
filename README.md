@@ -1,4 +1,4 @@
-# India Climate Risk Assessment — CMIP6 Temperature Exposure (2041–2070)
+# India Climate Warming Assessment using CMIP6 & SSP2-4.5
 
 Physical climate risk analysis projecting mid-century warming across India using CMIP6 projections, benchmarked against a 1981–2010 historical baseline.
 
@@ -59,6 +59,7 @@ The NetCDF (`.nc`) climate data files are not included in this repository due to
 
 The India district boundary GeoJSON used in this project is sourced from
 [HariKumarValluru/India-Map-with-States-and-Districts-GeoJson](https://github.com/HariKumarValluru/India-Map-with-States-and-Districts-GeoJson).
+
 
 
 ### 3. Run
