@@ -10,3 +10,10 @@ __pycache__/
 
 # OS files
 .DS_Store
+
+# Folder
+*.GRD
+
+tmax
+
+CMIP6_exp.ipynb
